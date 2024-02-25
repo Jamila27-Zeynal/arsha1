@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+:root{
+    --swiper-theme-color: #007aff;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+/*heder*/
+header{
+    background: #37517e;
+
+}
+.logo{
+    color: #fff;
+}
+header .navbar-nav ul a{
+    text-decoration: none;
+    color: var(--primary-color);
+    color: #fff;
+}
+header .btns a{
+    padding: 8px 20px;
+    background-color: #052c65;
+    color: #fff;
+    border-radius: 20px;
+    border: 2px solid #007aff;
+    list-style: none;
+    text-decoration: none;
+
+}
+/*section1*/
+   #hero{
+    background: #37517e;
+   
+
+}
+section {
+    padding: 150px 0px;
+}
+img{
+    min-width: 100%;
+}
+#hero h1{
+    color: #fff;
+    font-size: 30px;
+}
+#hero h2{
+  color: #fff;
+  font-size: 30px;
+}
+.button a{
+    padding: 8px 20px;
+    background-color:  #007aff;
+    color: #fff;
+    border-radius: 20px;
+    border: 2px solid #007aff;
+    list-style: none;
+    text-decoration: none;
+}
+span{
+    padding: 8px 20px;
+    font-size: 20px;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+#content{
+    text-align: center;
+    background-color: #F1F1F3;
+    box-sizing: border-box;
+    padding: 12px 0;
+    
+}
+.rov{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    gap: 25px;
+}
+.rov img{
+    padding: 10px;
+    width: 150px;
+    filter: grayscale(100%);
+}
+
+.animation{
+   animation-name: animation;
+   animation-duration: 2s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-fill-mode: backwards;
+}
+/*section3*/
+
+
+
+
+#clas{
+    padding: 60px 0;
+}
+#clas h2{
+    color: #052c65 ;
+    padding: 20px 0;
+}
+#clas a{
+   border: 1px solid #007aff;
+    border-radius: 5px;
+    padding: 12px 12px;
+    text-decoration: none;
+}
+
+
+
+
+
+/*section4 services*/
+
+
+#services{
+    background: #f3f5fa;
+    padding: 60px 0;
+}
+@keyframes animation {
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(20px);
+
+    }
+
+    100%{
+        transform: translateY(0);
+
+    }
+}
+
+
+
+/*section4*/
+#section{
+    background: #f3f5fa;
+    padding: 60px 0;
+}
+#section h2{
+    color: #37517e;
+}
+#section .list{
+    padding: 0 px 100px 60px 100px ;
+    box-sizing: border-box;
+}
+#section .list .item1{
+    background-color: #fff;
+    color: #495057;
+     border: 1px solid #f3f5fa;
+}
+#section .list .item2{
+    background-color: #fff;
+    color: #495057;
+    border: 1px solid #f3f5fa;
+}
+#section .list .item3{
+    background-color: #fff;
+    color: #495057;
+    border: 1px solid #f3f5fa;
+}
+#section span{
+    color: #007aff;
+}
+#section .row img{
+    width: 100%;
+}
+
+
+
+
+/*section5*/
+
+#Volu{
+    padding: 60px 0;
+}
+#Volu .row h3{
+  color: #37517e;
+}
+.row p{
+    font-style: italic;
+}
+
+
+
+
+
+
+/*section6 services*/
+
+
+
+
+#services{
+    padding: 60px 0;
+
+
+}
+#services h2{
+    color: #37517e;
+    padding-bottom: 30px;
+}
+#services .row{
+    
+    padding: 70px 80px;
+    transition: all ;
+   
+}
+#services .boxer{
+background-color: #fff;
+gap: 10px;
+padding: 40px 20px;
+}
+#services .row a{
+    text-decoration: none;
+}
+
+#services .task {
+text-align: center;
+}
+
+/*section7*/
+
+#back{
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(./cta-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 120px 0;
+    overflow: hidden;
+}
+#back .row{
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+#back .row a{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*section 8*/
+
+#team{
+
+   padding: 60px 0;
+}
+#team .basliq h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.basliq{
+    box-sizing: border-box;
+}
+
+#team .max{
+  
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.3s;
+    height: 100%;
+   
+}
+
+.team .max-inf {
+    font-size: 20px;
+    color: #37517e;
+    padding: 10px;
+}
+#team .max-inf p{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+/*section  9 pricing*/
+
+#pricing{
+    padding: 60px 0;
+    background: #fff;
+}
+#pricing .basliq{
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+#pricing .basliq h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #37517e; 
+}
+#pricing .basliq p{
+    font-size: 18px;
+}
+#pricing .row .txt {
+    padding: 80px 50px;
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+    background: #fff;
+    height: 100%;
+    border-top: 4px solid #fff;
+    border-radius: 5px;
+    line-height: 50px;
+}
+#pricing h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #37517e;
+}
+#pricing .row a{
+    text-decoration: none;
+    border-radius: 45px;
+    border: 1px solid#47b2e4;
+    padding: 12px 35px;
+    font-weight: 500;
+}
+#pricing .row{
+    padding-top: 30px;
+}
+
+/*frequently section 10 */
+#freq{
+    padding: 60px 0;
+    background-color: #f3f5fa;
+}
+#freq .basliq{
+    text-align: center;
+}
+#freq .list{
+    padding: 0 100px;
+}
+#freq .list li{
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+   
+}
+#freq .list li+li{
+    margin-top: 15px;
+}
+#freq .list a{
+    text-decoration: none;
+    
+    
+}
+/*section 11 -contact*/
+#contact{
+    padding: 60px 0;
+    background-color: #fff;
+}
+#contact .basliq{
+    align-items: center;
+    text-align: center;
+}
+#contact .basliq h2{
+    font-size: 32px;
+    color: #37517e;
+    text-transform: uppercase;
+}
+#contact .info{
+
+   
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+#contact .cont-email-form {
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+#contact form textarea {
+    border: 1px solid #f3f5fa;
+    border-radius: 1px;
+    padding: 10px 12px;
+    margin-top: 10px;
+    width: 100%;
+}
+#contact .text-center button{
+    background: #47b2e4;
+    border: 0;
+    padding: 12px 34px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+/*section 12*/
+#Join h4{
+    color: #37517e;
+    font-size: 20px;
+
+}
+#Join p{
+    font-size: 14px;
+}
+#Join  {
+    padding: 60px 0;
+    background: #f3f5fa;
+    text-align: center;
+    font-size: 15px;
+    color: #444444;
+}
+#Join form input[type=email]{
+    border-radius: 10px;
+    padding: 4px 8px;
+    border: 1px solid #fff;
+}
+#Join form input[type=submit]{
+    color: #fff;
+    background: #47b2e4;
+    border: 1px solid #47b2e4;
+    border-radius: 5px;
+}
+/*Fotter*/
+#block .row {
+    padding: 60px 0 ;
+    background: #fff;
+   
+}
+#block h4{
+    color:#37517e ;
+    
+}
+ 
+#block a{
+    text-decoration: none;
+    color: #444444;
+}
+#block h3{
+    color:#37517e ;
+}
+
+/*secton end*/
+#end{
+    background-color:#37517e ;
+    color: #fff;
+}
+#end .cont .copyright {
+    float: left;
+}
